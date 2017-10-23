@@ -71,6 +71,7 @@ IntersectionData ofxIntersection::RayTriangleIntersection(IsTriangle& triangle, 
     idata.pos=hitPos;
     idata.dist=distance;
 
+    return idata;
 }
 
 
